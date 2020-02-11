@@ -1,0 +1,16 @@
+{% import "../config.njk" as config %}
+
+{% set teaser_count = config.teasers|length %}
+{% set columns = ['one', 'two', 'three', 'four'] %}
+{% if teaser_count < 5 %}
+    {% set cols = columns[(12 / teaser_count)-1] %}
+{% else %}
+    {% set cols = 'four' %}
+{% endif %}
+
+{% for item in config.teasers %}
+    <div class="{{ cols }} columns teaser">
+        <h5>{{ item.name }}</h5>
+        <p>{{ item.text }}</p>
+    </div>
+{% endfor %}

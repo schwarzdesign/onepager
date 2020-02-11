@@ -1,0 +1,14 @@
+{% import "../config.njk" as config %}
+
+<div class="row">
+    {% for item in config.footer %}
+        <div class="four columns">
+            <h5>{{ item.headline }}</h5>
+            {% if item.image != '' %}<img class="rounded" src="{{ item.image }}">{% endif %}
+            <p>{{ item.text|replace('\n', '<br>')|safe }}</p>
+        </div>
+    {% endfor %}
+</div>
+<p class="text-muted mt">
+© {{ config.year }} {{ config.client_name }} 
+<a target="_blank" href="../pages/imprint/index.html">Impressum</a> | <a target="_blank" href="../pages/privacypolicy/index.html">Datenschutz</a></p>

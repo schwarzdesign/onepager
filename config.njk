@@ -1,0 +1,169 @@
+{#
+#   Config:
+    Alle Inhalt und Einstellungsänderungen sollten hier gemacht werden.
+    General Settings und Content wird in components wiederverwendet.
+    Jede Section ist in Settings and Content variables unterteilt;
+#}
+
+
+{# ------- GENERAL SETTINGS ------- #}
+{# Primary Colour #}
+{% set colour_primary = '#e80433' %}
+{# Secondary Colour #}
+{% set colour_secondary = '#003466' %}
+{# Gray Colour #}
+{% set colour_gray = '#eeeeee' %}
+{# Page Background Colour #}
+{% set page_background = '#fff' %}
+{# Page Text Colour #}
+{% set page_text_colour = '#333' %}
+{# Link Colour #}
+{% set link_colour = colour_secondary %}
+{# Round Edges #}
+{% set border_radius = 'true' %}
+{# Section Padding #}
+{% set section_padding = '3rem' %}
+{# Headline Font #}
+{% set font_headline = 'Asap' %}
+{# Text Font #}
+{% set font_text = 'Asap' %}
+{# Year #}
+{% set year = '2020' %}
+{# SEO #}
+{% set seo_description = 'Infodental Website description' %}
+
+
+
+
+{# -------- GENERAL CONTENT -------- #}
+{# ---------- Client Info ---------- #}
+{# Die folgenden Daten werden zur 
+Anzeige des Kontakt, Berechnung 
+der Map Geodaten und Generierung
+des Impressum und Datenschutz
+verwendet. #}
+
+{# Client: Name #}
+{% set client_name = 'LDF GmbH' %}
+{# Client: Street #}
+{% set client_street = 'Burgmauer 68' %}
+{# Client: Zip and City #}
+{% set client_city = '50667 Köln' %}
+{# Client: Telephone #}
+{% set client_tel = '+49 (0)221/240 93 42' %}
+{# Client: Fax #}
+{% set client_fax = '+49(0)221/240 86 70' %}
+{# Client Person #}
+{% set client_representatives = 'Barbara Kienle' %}
+{# Client Email #}
+{% set client_email = 'hofmann@infotage-dental.de' %}
+{# Client: Logo #}
+{% set logo = 'assets/logo.jpg' %}
+
+{# Header-Image #}
+{% set header_image = 'assets/header.jpg' %}
+{# Willkommenstext / Bild #}
+{% set welcome_msg = "Herzlich willkommen zu den id infotagen dental 2020" %}
+{% set welcome_image = "assets/welcome.png" %}
+
+
+
+{# ------------- TEASERS ------------- #}
+{# Hier können Hintergrund Farbe der
+Teaser Section, Tile Hintergründe,
+Text-Farbe, Section Headline und
+der Text in den jeweiligen Tiles
+bearbeitet werden #}
+
+{# Teaser Section Background #}
+{% set teaser_section_bg = '#eeeeee' %}
+{# Teaser Tile Background #}
+{% set teaser_bg = '' %}
+{# Teaser Tile Text-Colour #}
+{% set teaser_text_colour = '' %}
+{# Teaser Bereich Headline #}
+{% set teasers_heading = "In diesem Jahr finden die regionalen Dentalfachmessen an folgenden Standorten statt:" %}
+{# Teaser Tiles #}
+{% set teasers = [
+    {
+        name: 'München',
+        text: '11.09.2020, 13:00 – 18:00 Uhr
+12.09.2020, 10:00 – 15:00 Uhr'
+    },
+    {
+        name: 'Leipzig',
+        text: '25.09.2020, 13:00 – 18:00 Uhr
+26.09.2020, 09:00 – 14:00 Uhr'
+    },
+    {
+        name: 'Stuttgart',
+        text: '16.10.2020, 11:00 – 18:00 Uhr
+17.10.2020, 09:00 – 16:00 Uhr'
+    },
+    {
+        name: 'Frankfurt',
+        text: '13.11.2020, 11:00 – 18:00 Uhr
+14.11.2020, 09:00 – 17:00 Uhr'
+    }
+] %}
+
+
+
+{# ---------- NEWSLETTER ---------- #}
+{# Newsletter headline #}
+{% set newsletter_headline = "Informiert bleiben" %}
+{# Newsletter Text #}
+{% set newsletter_text = "Wir werden Sie hier weiter aktuell informieren.
+Gerne können Sie sich auch hier für unseren Newsletter anmelden." %}
+
+
+
+{# ------------- MAP ------------- #}
+{# Hier kann die Hintergrundfarbe
+der Map Section und der Text links
+von der Map geändert werden.
+Die Geodaten generieren sich auto-
+matisch aus den oben eingetragenen
+Client Infos #}
+{% set map_headline = 'Finden Sie uns' %}
+{% set map_text = 'Lorem Ipsum dolor sit amet' %}
+{% set map_bg = '#eeeeee' %}
+
+
+
+{# ----------- FOOTER ------------ #}
+{# Im letzen Block sollte nur 
+headline und bild geändert werden,
+da sich die restlichen Daten aus
+den Client Infos ergeben #}
+
+{% set footer = [
+    {
+        headline: 'Für Aussteller',
+        image: '',
+        text: 'Hier finden Sie eine Informationsbroschüre sowie die Anmeldeunterlagen.'
+    },
+    {
+        headline: 'Ansprechpartner',
+        image: 'assets/contact.jpg',
+        text: 'Christoph Hofmann
+Projektmanager
+Tel.: <a href="tel:0221 2408671">0221 2408671</a>
+E-Mail: <a href="mailto:Hofmann@infotage-dental.de">Hofmann@infotage-dental.de</a>'
+    },
+    {
+        headline: 'Veranstalter',
+        image: '',
+        text: client_name + '\n'
+         + client_street + '\n' 
+         + client_city + '\n' 
+         + 'Tel.: ' + client_tel + '\n' 
+         + 'Fax.: ' + client_fax
+    }
+] %}
+
+{# Map API / Geolocation ~ automatisch generiert #}
+{# https://nominatim.openstreetmap.org/search?format=xml&q=burgmauer+68+k%C3%B6ln #}
+{% set geocode = 'https://nominatim.openstreetmap.org/search?format=json&q=' + client_street + '+' + client_city %}
+{% set lat = '' %}
+{% set lng = '' %}
