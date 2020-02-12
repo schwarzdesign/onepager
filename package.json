@@ -14,7 +14,7 @@
     "url": "git+https://github.com/schwarzdesign/onepager.git"
   },
   "dependencies": {
-    "eleventy": "^0.10.0"
+    "eleventy": "^1.0.6"
   },
   "author": "schwarzdesign",
   "license": "ISC",
