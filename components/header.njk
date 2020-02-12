@@ -1,6 +1,8 @@
-{% import "../config.njk" as config %}
-
+{# {% import "src/config.njk" as config %} #}
+{% set config = project %}
 <div class="header">
+    <div class="container">
     <img class="logo" alt="logo" src="{{ config.logo }}">
     <img class="header__image" alt="header-image" src="{{ config.header_image }}">
+    </div>
 </div>

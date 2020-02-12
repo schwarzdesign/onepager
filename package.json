@@ -1,0 +1,22 @@
+{
+  "name": "onepager",
+  "version": "1.0.0",
+  "description": "Build a onepager website using eleventy.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run files:delete && npx eleventy && npm run files:move",
+    "files:delete": "rm -rf _site",
+    "files:move": "mv _site/assets _site/html/ && mv _site/css _site/html && mv _site/js _site/html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzdesign/onepager.git"
+  },
+  "author": "schwarzdesign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schwarzdesign/onepager/issues"
+  },
+  "homepage": "https://github.com/schwarzdesign/onepager#readme"
+}

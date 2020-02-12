@@ -1,10 +1,11 @@
-{% import "../config.njk" as config %}
+{# {% import "src/config.njk" as config %} #}
+{% set config = project %}
 
-<div class="geodata">
-    <div id="street">{{ config.client_street }}</div>
-    <div id="city">{{ config.client_city }}</div>
-</div>
 <div class="map">
+    <div class="geodata">
+        <div id="street">{{ config.client_street }}</div>
+        <div id="city">{{ config.client_city }}</div>
+    </div>
     <div class="container section section_map">
         <div class="row">
             <div class="six columns">

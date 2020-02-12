@@ -1,0 +1,90 @@
+{# {% import "src/config.njk" as config %} #}
+{% set config = project %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ config.client_name }}</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ config.seo_description }}" />
+    <meta name="keywords" content="{{ config.client_name }} {% for item in config.teasers %}, {{ item.name }}{% endfor %}" />
+    <meta name="robots" content="index, follow" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ config.font_headline }}:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ config.font_text }}">
+    <style>
+        body {font-family:{{ config.font_text }};background-color:{{ config.page_background }};color:{{ config.page_text_colour }}}
+        body a {color:{{ config.link_colour }}}
+        h1, h2, h3, h4, h5, h6 {font-family:{{ config.font_headline }}}
+        button {background-color:{{ config.colour_primary }}}
+        .teasers {background-color:{{ config.teaser_section_bg }}}
+        .teaser {background-color:{{ config.teaser_bg }};color:{{ config.teaser_text_colour }}}
+        .section {padding-top:{{ config.section_padding }};padding-bottom:{{ config.section_padding }}}
+        .section.bt{border-top:1px solid {{ config.colour_gray }}}
+        .map {background-color:{{ config.map_bg }}}
+        button {background-color:{{ config.colour_primary }}}
+        {% if config.border_radius == 'true' %}
+        .teaser, .map iframe, .rounded {border-radius:4px;}
+        .header .header__image {border-radius:4px;}
+        {% endif %}
+    </style>
+</head>
+    <body>
+        {# Header #}
+        {% include "components/header.njk" ignore missing %}
+        
+        {# Welcome Message & Image #}
+        <div class="container section section_welcome">
+            <div class="row">
+                {% if config.welcome_image != '' %}
+                    {% set w_cols = 'six' %}
+                {% else %}
+                    {% set w_cols = 'twelve'%}
+                {% endif %}
+                <div class="{{ w_cols }} columns">
+                    <h1>{{ config.welcome_msg }}</h1>
+                </div>
+                {% if config.welcome_image != '' %}
+                <div class="six columns">
+                    <img class="rounded" src="{{ config.welcome_image }}">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {# Teasers #}
+        <div class="teasers">
+            <div class="container section">
+                <p>{{ config.teasers_heading }}</p>
+                <div class="row">
+                    {% include "components/teasers.njk" ignore missing %}
+                </div>
+            </div>
+        </div>
+        {# Newsletter #}
+        {% if config.show_newletter == 'true' %}
+        <div class="container section section_newsletter">
+            <div class="row">
+                <div class="six columns">
+                    <h3>{{ config.newsletter_headline }}</h3>
+                    <p>{{ config.newsletter_text }}</p>
+                </div>
+                <div class="six columns">
+                    {# - newsletter html snippet placeholder - #}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {# Map #}
+        {% if config.show_map == 'true' %}
+            {% include "components/map.njk" ignore missing %}
+            <script src="js/geo.js"></script>
+        {% endif %}
+        
+        {# Footer #}
+        <div class="container section section_footer">
+            <footer class="footer">
+                    {% include "components/footer.njk" ignore missing %}
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,4 +1,5 @@
-{% import "../config.njk" as config %}
+{# {% import "src/config.njk" as config %} #}
+{% set config = project %}
 
 {% set teaser_count = config.teasers|length %}
 {% set columns = ['one', 'two', 'three', 'four'] %}
