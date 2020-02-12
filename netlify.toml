@@ -2,6 +2,6 @@
     publish = 'html'
     command = 'npm run build'
 [build.environment]
-    NODE_ENV = ‘production’
-    NODE_VERSION = ‘13.7.0’
-    NPM_VERSION = ‘6.13.6’
+    NODE_ENV = 'production'
+    NODE_VERSION = '13.7.0'
+    NPM_VERSION = '6.13.6'
