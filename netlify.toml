@@ -1,5 +1,5 @@
 [build]
-    publish = '_site/html'
+    publish = '_site/html/'
     command = 'npm run build'
 [build.environment]
     NODE_ENV = 'production'
