@@ -61,9 +61,9 @@ module.exports = () => {
 		/* Header Image */
 		header_image: 'assets/header.jpg',
 		/* Welcome Message Headline */
-		welcome_headline: 'id infotage dental 2020 – der regionale Treffpunkt der Dental-Branche.',
+		welcome_headline: 'Der regionale Treffpunkt der Dental-Branche.',
 		/* Welcome Message / Text */
-		welcome_msg: '<p>Diese Website wird aktuell überarbeitet und steht in Kürze wieder zur Verfügung.</p> <p>Aussteller finden hier vorab eine <a href=\'assets/informationsbroschuere_2020.pdf\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\'>Anmeldeunterlagen</a>.</p><p>Sie haben Rückfragen? Sprechen Sie uns an.</p>',
+		welcome_msg: '<p>Die Website der id infotage dental wird aktuell überarbeitet und steht in Kürze wieder zur Verfügung.</p> <p>Aussteller finden hier vorab eine <a href=\'assets/informationsbroschuere_2020.pdf\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\'>Anmeldeunterlagen</a>.</p><p>Sie haben Rückfragen? Sprechen Sie uns an.</p>',
 		/* Welcome image */
 		welcome_image: 'assets/welcome.jpg',
 
