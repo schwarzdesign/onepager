@@ -11,4 +11,4 @@
 
 
 ### Option 2 - Lokal installieren & kompilieren
-> Info: 
+> Info: Das One Pager projekt herunterladen und lokal kompilieren
