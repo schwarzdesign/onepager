@@ -60,6 +60,8 @@ module.exports = () => {
 		header_image: 'assets/header.jpg',
 		/* Welcome Message / Text */
 		welcome_msg: 'Herzlich willkommen zu unserer Seite..',
+		/* Welcome image */
+		welcome_image: 'assets/welcome.jpg',
 
 		/* ------------- TEASERS ------------- */
 		/* Hier können Hintergrund Farbe der
