@@ -4,13 +4,13 @@
 
 ### Option 1 - Netlify
 > Info: Netlify wird als als hoster für die static page genutzt und in den DNS Einstellungen des Kunden wird auf die jeweilige Netlify Domain verwiesen.
-1. Von dieser Github Repository einen neuen Branch erstellen. (Wichtig: Nicht den Master branch überschreiben).
-2. Bei Netlify einloggen und über "New site from Git" ein neues Projekt anlegen und als Continuous Deployment Methode "Github App" auswählen.
-3. Als Repository "schwarzdesign/onepager" auswählen und anschließend anklicken. Nun kann der neu erstellte Branch ausgewählt werden.
-4. "Deploy Site" -> Dadurch wird der Deploy Vorgang gestartet und bei erfolgreichem Abschluss automatisch eine netlify domain erstellt.
+1. Von dieser Github Repository einen neuen **Branch** erstellen. (Wichtig: Nicht den Master branch überschreiben).
+2. Bei **Netlify** einloggen und über **"New site from Git"** ein neues Projekt anlegen und als Continuous Deployment Methode **"Github App"** auswählen.
+3. Als Repository **"schwarzdesign/onepager"** auswählen und anschließend anklicken. Nun kann der neu erstellte Branch ausgewählt werden.
+4. Nun auf **"Deploy Site"** klicken -> Dadurch wird der Deploy Vorgang gestartet und bei erfolgreichem Abschluss automatisch eine netlify domain erstellt.
 5. Alle Änderungen im jeweiligen branch werden von Netlify automatisch übernommen. Die Config kann also direkt über Github beaerbeitet werden. (**src/_data/project.js**)
 6. Newsletter html code muss direkt in **src/index.njk** eingefügt werden. Dazu einfach {# newsletter html placeholder steht #} ersetzen.
-7. Netlify Domain in DNS Eintrag des Kundenservers eintragen.
+7. Netlify Domain in DNS Eintrag des Kundenservers eintragen. (Diese lautet dann z.B. https://jolly-davinci-fb7f55.netlify.com/)
 
 
 ### Option 2 - Lokal installieren & kompilieren
