@@ -85,19 +85,19 @@ module.exports = () => {
 		teasers: [
 			{
 				name: 'München',
-				text: '11.-12. September 2020'
+				text: '<b>11.-12. September 2020</b>' + '\n' + 'Freitag 13-18 Uhr' + '\n' + 'Samstag 10-15 Uhr'
 			},
 			{
 				name: 'Leipzig',
-				text: '25.-26. September 2020'
+				text: '<b>25.-26. September 2020</b>' + '\n' + 'Freitag 13-18 Uhr' + '\n' + 'Samstag 9-14 Uhr'
 			},
 			{
 				name: 'Stuttgart',
-				text: '16.-17. Oktober 2020'
+				text: '<b>16.-17. Oktober 2020</b>' + '\n' + 'Freitag 11-18 Uhr' + '\n' + 'Samstag 9-16 Uhr'
 			},
 			{
 				name: 'Frankfurt/M.',
-				text: '13.-14. November 2020'
+				text: '<b>13.-14. November 2020</b>' + '\n' + 'Freitag 11-18 Uhr' + '\n' + 'Samstag 9-17 Uhr'
 			},
 		],
 
