@@ -9,7 +9,8 @@
 3. Als Repository "schwarzdesign/onepager" auswählen und anschließend anklicken. Nun kann der neu erstellte Branch ausgewählt werden.
 4. "Deploy Site" -> Dadurch wird der Deploy Vorgang gestartet und bei erfolgreichem Abschluss automatisch eine netlify domain erstellt.
 5. Alle Änderungen im jeweiligen branch werden von Netlify automatisch übernommen. Die Config kann also direkt über Github beaerbeitet werden. (**src/_data/project.js**)
-5. Netlify Domain in DNS Eintrag des Kundenservers eintragen.
+6. Newsletter html code muss direkt in **src/index.njk** eingefügt werden. Dazu einfach {# newsletter html placeholder steht #} ersetzen.
+7. Netlify Domain in DNS Eintrag des Kundenservers eintragen.
 
 
 ### Option 2 - Lokal installieren & kompilieren
