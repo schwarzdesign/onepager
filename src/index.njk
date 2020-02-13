@@ -10,11 +10,13 @@
         <meta name="robots" content="index, follow"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link type="text/css" rel="stylesheet" href="css/style.css">
+        {% if use_google_fonts == 'true' %}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ config.font_headline }}:700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ config.font_text }}">
+        {% endif %}
         <style>
             body {
-                font-family: {{config.font_text}};
+                font-family: {{ config.font_text }};
                 font-size: {{ config.font_size }};
                 background-color: {{config.page_background}};
                 color: {{config.page_text_colour}}

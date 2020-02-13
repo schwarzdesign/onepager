@@ -23,10 +23,12 @@ module.exports = () => {
 		border_radius: 'true',
 		/* Section Padding */
 		section_padding: '3rem',
+		/* user Google Fonts? */
+		use_google_fonts: 'true',
 		/* Headline Font */
-		font_headline: 'Arial',
+		font_headline: 'Roboto',
 		/* Normal text Font */
-		font_text: 'Arial',
+		font_text: 'Roboto',
 		/* Font Size */
 		font_size: '1.5rem',
 		/* Current year */
