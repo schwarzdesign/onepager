@@ -181,5 +181,12 @@ E-Mail: {{ config.client_email }}</p>
             <p>Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.</p>
             <p>Weitere Informationen zu Google Web Fonts finden Sie unter <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener noreferrer">https://developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>.</p>
         </div>
+	
+	{# Footer #}
+        <div class="container section section_footer">
+            <footer class="footer">
+                {% include "components/footer.njk" ignore missing %}
+            </footer>
+        </div>
     </body>
 </html>
