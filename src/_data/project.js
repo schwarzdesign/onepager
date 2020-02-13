@@ -119,12 +119,10 @@ module.exports = () => {
 		map_bg: '#eeeeee',
 
 		/* ----------- FOOTER ------------ */
-		/* Im letzen Block sollte nur 
-		headline und bild geändert werden,
-		da sich die restlichen Daten aus
-		den Client Infos ergeben */
 		/* Hier verwendete bilder müssen 
-		im Ordner /assets abgelegt werden */
+		im Ordner /assets abgelegt werden 
+		Der letzte Block "Veranstalter" wird
+		automatisch aus den Kundendaten generiert */
 		footer: [
 			{
 				headline: 'Footer block One',
