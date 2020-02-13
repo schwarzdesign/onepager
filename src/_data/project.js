@@ -130,7 +130,7 @@ module.exports = () => {
 			{
 				headline: 'Für Aussteller',
 				image: '',
-				text: 'Hier finden Sie eine Informationsbroschüre sowie die Anmeldeunterlagen.'
+				text: 'Hier finden Sie eine <a href=\'assets/informationsbroschuere_2020.pdf\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\'>Anmeldeunterlagen</a>.'
 			},
 			{
 				headline: 'Kontakt',
