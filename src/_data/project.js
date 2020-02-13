@@ -80,7 +80,7 @@ module.exports = () => {
 		/* Teaser Tile text colour */
 		teaser_text_colour: '',
 		/* Teaser Section headline */
-		teaser_headline: 'Teaser headline',
+		teaser_headline: 'Auch in diesem Jahr finden die regionalen Dentalfachmessen wieder an folgenden Standorten statt:',
 		/* Teaser Content */
 		teasers: [
 			{
