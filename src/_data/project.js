@@ -28,7 +28,7 @@ module.exports = () => {
 		/* Normal text Font */
 		font_text: 'Asap',
 		/* Font Size */
-		font_size: '1.5rem',
+		font_size: '2rem',
 		/* Current year */
 		year: '2020',
 		/* SEO description */
