@@ -36,12 +36,11 @@
     <body>
         <div class="header">
             <div class="container">
-            <img class="logo" alt="logo" src="{{ config.logo }}">
+            <img class="logo" alt="logo" src="../{{ config.logo }}">
             </div>
         </div>
         <div class="container">
             <h1>Impressum</h1>
-
             <h2>Angaben gemäß § 5 TMG</h2>
             <p>{{ config.client_name }}<br/>
 {{ config.client_street }}<br/>
@@ -57,7 +56,7 @@ Registergericht: Amtsgericht Köln</p>
             <h2>Kontakt</h2>
             <p>Telefon: {{ config.client_tel }}<br/>
 Telefax: {{ config.client_fax }}<br/>
-E-Mail: {{ config.client_email }}</p>
+E-Mail: <a href="mailto:{{ config.client_email }}">{{ config.client_email }}</a></p>
 
             <h2>Verbraucher­streit­beilegung/Universal­schlichtungs­stelle</h2>
             <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
