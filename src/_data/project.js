@@ -24,9 +24,9 @@ module.exports = () => {
 		/* Section Padding */
 		section_padding: '3rem',
 		/* Headline Font */
-		font_headline: 'Arial',
+		font_headline: 'Asap',
 		/* Normal text Font */
-		font_text: 'Arial',
+		font_text: 'Asap',
 		/* Font Size */
 		font_size: '1.5rem',
 		/* Current year */
@@ -43,27 +43,27 @@ module.exports = () => {
 		verwendet. */
 		/* Client Info */
 		/* Client: Name */
-		client_name: 'schwarzdesign',
+		client_name: 'LDF GmbH',
 		/* Client: Street */
-		client_street: 'Händelstraße 26',
+		client_street: 'Burgmauer 68',
 		/* Client: Zip and City */
-		client_city: '50674 Köln',
+		client_city: '50667 Köln',
 		/* Client: Telephone */
-		client_tel: '0221/1234567890',
+		client_tel: '+49 (0)221/240 93 42',
 		/* Client: Fax */
-		client_fax: '0221/1234567891',
+		client_fax: '+49 (0)221/240 86 70',
 		/* Client Lead */
-		client_represent: 'Max Mustermann',
+		client_represent: 'Christoph Hofmann',
 		/* Client Email */
-		client_email: 'firma@gmail.de',
+		client_email: 'Hofmann@infotage-dental.de',
 		/* Client Logo */
-		logo: 'assets/logo.jpg',
+		logo: 'assets/logo.gif',
 		/* Header Image */
 		header_image: 'assets/header.jpg',
 		/* Welcome Message Headline */
-		welcome_headline: 'Herzlich willkommen zu unserer Seite..',
+		welcome_headline: 'Herzlich willkommen zu den id infotagen dental 2020',
 		/* Welcome Message / Text */
-		welcome_msg: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+		welcome_msg: 'In diesem Jahr finden die regionalen Dentalfachmessen an folgenden Standorten statt:',
 		/* Welcome image */
 		welcome_image: 'assets/welcome.jpg',
 
