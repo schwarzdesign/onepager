@@ -77,3 +77,10 @@ footer img {
 .map iframe {
     
 }
+
+.cr_form .cr_ipe_checkbox{
+    margin-right:1rem;
+}
+.cr_form .submit_container {
+    margin-top:1rem;
+}

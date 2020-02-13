@@ -27,6 +27,8 @@ module.exports = () => {
 		font_headline: 'Arial',
 		/* Normal text Font */
 		font_text: 'Arial',
+		/* Font Size */
+		font_size: '1.5rem',
 		/* Current year */
 		year: '2020',
 		/* SEO description */
@@ -100,11 +102,12 @@ module.exports = () => {
 		],
 
 		/* ---------- NEWSLETTER ---------- */
+		/* Show Newsletter? */
+		show_newsletter: 'true',
 		/* Newsletter headline */
 		newletter_headline: 'Informiert bleiben',
 		/* Newsletter text */
 		newsletter_text: 'Wir werden Sie hier weiter aktuell informieren. Gerne können Sie sich auch hier für unseren Newsletter anmelden.',
-		newsletter_html: '',
 
 		/* ------------- MAP ------------- */
 		/* Hier kann die Hintergrundfarbe
