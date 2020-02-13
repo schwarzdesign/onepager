@@ -61,9 +61,9 @@ module.exports = () => {
 		/* Header Image */
 		header_image: 'assets/header.jpg',
 		/* Welcome Message Headline */
-		welcome_headline: 'Herzlich willkommen zu den id infotagen dental 2020',
+		welcome_headline: 'id infotagen dental 2020',
 		/* Welcome Message / Text */
-		welcome_msg: 'In diesem Jahr finden die regionalen Dentalfachmessen an folgenden Standorten statt:',
+		welcome_msg: 'Auch in diesem Jahr finden die regionalen Dentalfachmessen wieder an folgenden Standorten statt:',
 		/* Welcome image */
 		welcome_image: 'assets/welcome.jpg',
 
@@ -105,7 +105,7 @@ module.exports = () => {
 		/* Show Newsletter? */
 		show_newsletter: 'true',
 		/* Newsletter headline */
-		newletter_headline: 'Informiert bleiben',
+		newsletter_headline: 'Informiert bleiben',
 		/* Newsletter text */
 		newsletter_text: 'Wir werden Sie hier weiter aktuell informieren. Gerne können Sie sich auch hier für unseren Newsletter anmelden.',
 
