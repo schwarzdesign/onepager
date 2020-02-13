@@ -134,7 +134,7 @@ module.exports = () => {
 			},
 			{
 				headline: 'Kontakt',
-				image: 'assets/contact.jpg',
+				image: 'assets/hofmann.jpg',
 				text: 'Christoph Hofmann' + '\n' +
 				'Projektmanager' + '\n' +
 				'Tel: +49 221 2408671' + '\n' +
