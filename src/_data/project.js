@@ -31,6 +31,8 @@ module.exports = () => {
 		font_size: '2rem',
 		/* Current year */
 		year: '2020',
+	    	/* SEO page title */
+		seo_page_title: 'id infotage dental 2020',
 		/* SEO description */
 		seo_description: 'Site SEO description',
 
