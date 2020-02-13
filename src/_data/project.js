@@ -43,9 +43,9 @@ module.exports = () => {
 		verwendet. */
 		/* Client Info */
 		/* Client: Name */
-		client_name: 'Firmenname',
+		client_name: 'schwarzdesign',
 		/* Client: Street */
-		client_street: 'Straßenname 45',
+		client_street: 'Händelstraße 26',
 		/* Client: Zip and City */
 		client_city: '50674 Köln',
 		/* Client: Telephone */
