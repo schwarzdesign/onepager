@@ -84,20 +84,20 @@ module.exports = () => {
 		/* Teaser Content */
 		teasers: [
 			{
-				name: 'Teaser 1',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'München',
+				text: '11.-12. September 2020'
 			},
 			{
-				name: 'Teaser 2',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Leipzig',
+				text: '25.-26. September 2020'
 			},
 			{
-				name: 'Teaser 2',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Stuttgart',
+				text: '16.-17. Oktober 2020'
 			},
 			{
-				name: 'Teaser 2',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Frankfurt/M.',
+				text: '13.-14. November 2020'
 			},
 		],
 
@@ -128,17 +128,17 @@ module.exports = () => {
 		automatisch aus den Kundendaten generiert */
 		footer: [
 			{
-				headline: 'Footer block One',
+				headline: 'Für Aussteller',
 				image: '',
-				text: 'Text below Footer block One.'
+				text: 'Hier finden Sie eine Informationsbroschüre sowie die Anmeldeunterlagen.'
 			},
 			{
-				headline: 'Footer block Contact',
+				headline: 'Kontakt',
 				image: 'assets/contact.jpg',
-				text: 'Max Mustermann' + '\n' +
-				'Projektleiter' + '\n' +
-				'Tel: 0221/1234567890' + '\n' +
-				'E-mail: <a href=\'mailto:firma@gmail.com\'>firma@gmail.com</a>'
+				text: 'Christoph Hofmann' + '\n' +
+				'Projektmanager' + '\n' +
+				'Tel: +49 221 2408671' + '\n' +
+				'E-mail: <a href=\'mailto:hofmann@infotage-dental.de\'>hofmann@infotage-dental.de</a>'
 			}
 		]
     }
