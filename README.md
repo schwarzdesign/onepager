@@ -15,8 +15,9 @@
 ### Option 2 - Lokal installieren & kompilieren
 > Info: Das One Pager projekt herunterladen und lokal kompilieren
 1. Entwicklungsumgebung:
-    - Node.js global installieren ()
-    - npm global installieren ()
+    - NVM installieren ``curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh``
+    - Node.js/npm installieren (v13.7.0) ``nvm install node``
+    - Genauere Beschreibung [hier](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/).
 2. Über das Github interface oder die Console diese Repository herunterladen
 3. Die Config in **src/_data/project.js** für den jeweiligen Kunden anpassen
 4. Über Console ins Root directory navigieren und mit "npm run build" die statische Seite generieren
