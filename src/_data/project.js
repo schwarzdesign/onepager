@@ -116,7 +116,7 @@ module.exports = () => {
 		Die Geodaten generieren sich auto-
 		matisch aus den oben eingetragenen
 		Client Infos */
-		show_map: 'true',
+		show_map: 'false',
 		map_headline: 'Finden Sie uns',
 		map_text: 'Lorem Ipsum dolor sit amet',
 		map_bg: '#eeeeee',
