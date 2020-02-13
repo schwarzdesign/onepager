@@ -133,7 +133,7 @@ module.exports = () => {
 				text: 'Hier finden Sie eine <a href=\'assets/informationsbroschuere_2020.pdf\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\'>Anmeldeunterlagen</a>.'
 			},
 			{
-				headline: 'Kontakt',
+				headline: 'Ihr Ansprechpartner',
 				image: 'assets/hofmann.jpg',
 				text: 'Christoph Hofmann' + '\n' +
 				'Projektmanager' + '\n' +
