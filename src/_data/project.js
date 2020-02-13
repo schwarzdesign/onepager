@@ -34,7 +34,7 @@ module.exports = () => {
 	    	/* SEO page title */
 		seo_page_title: 'id infotage dental 2020',
 		/* SEO description */
-		seo_description: 'Site SEO description',
+		seo_description: 'Der regionale Treffpunkt der Dental-Branche: München, Leipzig, Stuttgart, Frankfurt/M.',
 
 		/* -------- GENERAL CONTENT -------- 
 		   ---------- Client Info ---------- 
