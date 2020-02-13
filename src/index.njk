@@ -42,7 +42,8 @@
                     {% set w_cols = 'twelve'%}
                 {% endif %}
                 <div class="{{ w_cols }} columns">
-                    <h1>{{ config.welcome_msg }}</h1>
+                    <h1>{{ config.welcome_headline }}</h1>
+                    <p>{{ config.welcome_msg }}</p>
                 </div>
                 {% if config.welcome_image != '' %}
                 <div class="six columns">

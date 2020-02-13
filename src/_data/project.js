@@ -56,10 +56,12 @@ module.exports = () => {
 		client_email: 'firma@gmail.de',
 		/* Client Logo */
 		logo: 'assets/logo.jpg',
-		/* Header */
+		/* Header Image */
 		header_image: 'assets/header.jpg',
+		/* Welcome Message Headline */
+		welcome_headline: 'Herzlich willkommen zu unserer Seite..',
 		/* Welcome Message / Text */
-		welcome_msg: 'Herzlich willkommen zu unserer Seite..',
+		welcome_msg: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
 		/* Welcome image */
 		welcome_image: 'assets/welcome.jpg',
 
