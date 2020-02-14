@@ -76,23 +76,8 @@
         <div class="container section section_welcome">
             <div class="row">
 
-                <div class="six columns">
+                <div class="twelve columns">
                     <h1>{{ config.welcome_headline }}</h1>
-                </div>
-
-                <div class="six columns">
-                </div>
-                
-            </div>
-
-            <div class="row">
-
-                <div class="six columns">
-                    <p>{{ config.welcome_msg }}</p>
-                </div>
-
-                <div class="six columns">
-                    <p>Sie sind Aussteller und interessieren sich für eine Teilnahme an den id infotagen dental in München und Frankfurt?</p><p>Hier finden Sie eine <a href='assets/informationsbroschuere_2020.pdf' target='blank'>Informationsbroschüre</a> sowie die <a href='assets/anmeldeformular_2020.pdf' target='blank'>Anmeldeunterlagen</a></p>.
                     
                 </div>
                 
@@ -101,7 +86,7 @@
         {# Teasers #}
         <div class="teasers">
             <div class="container section">
-                <p>{{ config.teaser_headline }}</p>
+                <p>{{ config.welcome_msg }}</p>
                 <div class="row">
                     {% include "components/teasers.njk" ignore missing %}
                 </div>
@@ -172,9 +157,11 @@
          <div class="teasers">
                 <div class="row container section ">
                     <div class="twelve columns">
-                    <h3>VORSICHT vor inoffiziellen Ausstellerverzeichnissen!</h3>
-                                            <p>
-                                Verschiedene Herausgeber von inoffiziellen Ausstellerverzeichnissen, meist mit Sitz in Lateinamerika (z.B.
+                    <h3>Für Aussteller</h3>
+                    <p>Sie interessieren sich für eine Teilnahme an den id infotagen dental in München und Frankfurt?<br>Hier finden Sie eine <a href='assets/informationsbroschuere_2020.pdf' target='blank'>Informationsbroschüre</a> sowie die <a href='assets/anmeldeformular_2020.pdf' target='blank'>Anmeldeunterlagen</a></p>.
+                    
+                    <h4>VORSICHT vor inoffiziellen Ausstellerverzeichnissen!</h4>
+                    <p>Verschiedene Herausgeber von inoffiziellen Ausstellerverzeichnissen, meist mit Sitz in Lateinamerika (z.B.
                     CONNECT Publisher SC, Construct Data Verlag AG, EXPO Guide, FAIRGUIDE.COM, INEXORG, International Fairs Guide) 
                     bieten Ausstellern regelmäßig postalisch eine Eintragung in häufig qualitativ minderwertigen Online-Verzeichnissen an. </p><p>Diese bieten keinen Mehrwert, können jedoch im Gegenzug eine versteckte langfristige Zahlungsverpflichtung über hohe Geldsummen beinhalten. Die id infotage dental arbeiten mit keinem dieser Verzeichnisse zusammen – unterschreiben Sie keine unseriösen Angebote!
                     Weitere Infos unter <a href="https://www.auma.de/de/ausstellen/recht/inoffizielle-ausstellerverzeichnisse" target="_blank">www.auma.de</a>.
