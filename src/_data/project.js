@@ -26,11 +26,11 @@ module.exports = () => {
 		/* user Google Fonts? */
 		use_google_fonts: 'true',
 		/* Headline Font */
-		font_headline: 'Roboto',
+		font_headline: 'Open Sans',
 		/* Normal text Font */
-		font_text: 'Roboto',
+		font_text: 'Open Sans',
 		/* Font Size */
-		font_size: '1.5rem',
+		font_size: '2rem',
 		/* Current year */
 		year: '2020',
 		/* SEO description */
@@ -45,19 +45,19 @@ module.exports = () => {
 		verwendet. */
 		/* Client Info */
 		/* Client: Name */
-		client_name: 'Firmenname',
+		client_name: 'Gartenmanufaktur Schmidt',
 		/* Client: Street */
-		client_street: 'Straßenname 45',
+		client_street: 'Richard-Byrd-Straße 43a',
 		/* Client: Zip and City */
-		client_city: '50674 Köln',
+		client_city: '50829 Köln',
 		/* Client: Telephone */
-		client_tel: '0221/1234567890',
+		client_tel: '0221.168 528 44',
 		/* Client: Fax */
-		client_fax: '0221/1234567891',
+		client_fax: '0221.168 528 45',
 		/* Client Lead */
-		client_represent: 'Max Mustermann',
+		client_represent: 'Dipl.-Ing. Stefan Schmidt',
 		/* Client Email */
-		client_email: 'firma@gmail.de',
+		client_email: 'info@gartenmanufaktur-schmidt.de',
 		/* Client Logo */
 		logo: 'assets/logo.jpg',
 		/* Header Image */
@@ -82,7 +82,7 @@ module.exports = () => {
 		/* Teaser Tile text colour */
 		teaser_text_colour: '',
 		/* Teaser Section headline */
-		teaser_headline: 'Teaser headline',
+		teaser_headline: 'Unsere Leistungen',
 		/* Teaser Content */
 		teasers: [
 			{
@@ -105,7 +105,7 @@ module.exports = () => {
 
 		/* ---------- NEWSLETTER ---------- */
 		/* Show Newsletter? */
-		show_newsletter: 'true',
+		show_newsletter: 'false',
 		/* Newsletter headline */
 		newletter_headline: 'Informiert bleiben',
 		/* Newsletter text */
@@ -130,16 +130,16 @@ module.exports = () => {
 		automatisch aus den Kundendaten generiert */
 		footer: [
 			{
-				headline: 'Footer block One',
+				headline: 'Unser Angebot',
 				image: '',
-				text: 'Text below Footer block One.'
+				text: 'Ich berate Sie gerne, bringe überraschende Vorschläge ein, entwerfe mit vielen Ideen sowie meinem Gestaltungs- und Fachwissen und gemeinsam mit Ihnen und Ihren Vorstellungen den Garten, in dem Sie und Ihre Familie zu Hause sind und sich rundum wohl fühlen, eben ein \„Garten mit Seele\“.'
 			},
 			{
-				headline: 'Footer block Contact',
+				headline: 'Ihr Ansprechpartner',
 				image: 'assets/contact.jpg',
-				text: 'Max Mustermann' + '\n' +
+				text: 'Stefan Schmidt' + '\n' +
 				'Projektleiter' + '\n' +
-				'Tel: 0221/1234567890' + '\n' +
+				'Tel: 0221.168 528 44' + '\n' +
 				'E-mail: <a href=\'mailto:firma@gmail.com\'>firma@gmail.com</a>'
 			}
 		]
