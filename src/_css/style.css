@@ -68,6 +68,7 @@ footer img {
     background-color: #fff;
     padding:2rem; 
     box-shadow: 1px 1px 1px #ddd;
+    height: 400px;
 }
 
 
@@ -83,4 +84,35 @@ footer img {
 }
 .cr_form .submit_container {
     margin-top:1rem;
+}
+
+/* For devices larger than 550px and smaller than 990px */
+@media (min-width: 550px) and (max-width: 990px) {
+    .one.column,
+    .one.columns                    { width: 13.3333333333%; }
+    .two.columns                    { width: 30.6666666667%; }
+    .three.columns                  { width: 48%; }
+    .four.columns                   { width: 48%; }
+    .five.columns                   { width: 100%; margin-left: 0; }
+    .six.columns                    { width: 100%; margin-left: 0; }
+    .seven.columns                  { width: 100%; margin-left: 0; }
+    .eight.columns                  { width: 100%; margin-left: 0; }
+    .nine.columns                   { width: 100%; margin-left: 0; }
+    .ten.columns                    { width: 100%; margin-left: 0; }
+    .eleven.columns                 { width: 100%; margin-left: 0; }
+    .twelve.columns                 { width: 100%; margin-left: 0; }
+    .two.columns:nth-child(3n-999) {
+        margin-left:0;
+    }
+    .two.columns:nth-child(n+4){
+        margin-top:1rem;
+    }
+    .three.columns:nth-child(3n-999),
+    .four.columns:nth-child(3n-999) {
+        margin-left:0;
+    }
+    .three.columns:nth-child(n+3),
+    .four.columns:nth-child(n+3){
+        margin-top:1rem;
+    }
 }

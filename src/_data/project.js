@@ -8,19 +8,19 @@
 module.exports = () => {
     return {
 		/* Primary Colour */
-		colour_primary: '#e80433',
+		colour_primary: '#993300',
 		/* Secondary Colour */
-		colour_secondary: '#003466',
+		colour_secondary: '#C3E1EE',
 		/* Gray Colour */
 		colour_gray: '#eeeeee',
 		/* Page Background Colour */
-		page_background: '#fff',
+		page_background: '#FBFAE0',
 		/* Page Text Colour */
 		page_text_colour: '#222',
 		/* Link Colour */
-		link_colour: '#003466',
+		link_colour: '#993300',
 		/* Round Edges */
-		border_radius: 'true',
+		border_radius: 'false',
 		/* Section Padding */
 		section_padding: '3rem',
 		/* user Google Fonts? */
@@ -63,9 +63,9 @@ module.exports = () => {
 		/* Header Image */
 		header_image: 'assets/header.jpg',
 		/* Welcome Message Headline */
-		welcome_headline: 'Herzlich willkommen zu unserer Seite..',
+		welcome_headline: 'Wir machen Ihren Gartentraum wahr.',
 		/* Welcome Message / Text */
-		welcome_msg: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+		welcome_msg: 'In der ganzheitlichen Perspektive liegt die Stärke unserer Gestaltung. Denn das Wesen eines Gartens kann nur verstehen, wer ihn als Ganzes sieht. Wir schaffen auf einfühlsame Weise die Balance zwischen den örtlichen Gegebenheiten und Ihren Wünschen und verbinden ein harmonisches Gesamtbild mit besonderen Materialien und Akzenten.',
 		/* Welcome image */
 		welcome_image: 'assets/welcome.jpg',
 
@@ -76,7 +76,7 @@ module.exports = () => {
 		der Text in den jeweiligen Tiles
 		bearbeitet werden */
 		/* Teaser Section background */
-		teaser_section_bg: '#eeeeee',
+		teaser_section_bg: '#C3E1EE',
 		/* Teaser Tile background */
 		teaser_bg: '',
 		/* Teaser Tile text colour */
@@ -86,20 +86,36 @@ module.exports = () => {
 		/* Teaser Content */
 		teasers: [
 			{
-				name: 'Teaser 1',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Neu- oder Umgestaltung',
+				text: 'Ich berate Sie gerne, bringe überraschende Vorschläge ein, entwerfe mit vielen Ideen sowie meinem Gestaltungs- und Fachwissen und gemeinsam mit Ihnen und Ihren Vorstellungen den Garten.'
 			},
 			{
-				name: 'Teaser 2',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Mit Licht im Garten gestalten',
+				text: 'Stimmungsvolle Beleuchtung ihres Gartens mit ausgewählten und besonderen Lampen, wäre das nicht ein schönes Geschenk, mit dem Sie sich selbst beschenken?'
 			},
 			{
-				name: 'Teaser 2',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Terrassen reinigen',
+				text: 'Säubern ihrer Stein- und Holzterrassen von Schmutz und Grünbelägen. Überarbeiten oder Neuerstellen von Fugen.'
 			},
 			{
-				name: 'Teaser 2',
-				text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+				name: 'Wartungen',
+				text: 'Wir kontrollieren, reinigen und warten ihre technischen Einrichtungen, um diese dauerhaft funktionstüchtig zu halten, u.a. Beregnungsanlagen, Teichtechnik, Entwässerungsrinnen und Hofabläufe, sowie ihre Dachrinnen.'
+			},
+			{
+				name: 'Gehölzschnitt',
+				text: 'Pflanzen aus-, zurück und in Form schneiden, in der Schnittführung dabei das Ganze und die Zukunft im Blick haben, damit Ihnen die Pflanzen nicht über den Kopf wachsen.'
+			},
+			{
+				name: 'Rasen pflegen',
+				text: 'Rasen verticutieren, Starterdüngung ausbringen, Unkräuter im Rasen beseitigen und Kanten stechen.'
+			},
+			{
+				name: 'Staudenrabatten und Teichpflege',
+				text: 'Aufnehmen, überarbeiten und ergänzen ihrer Staudenrabatten mit neuen Schönheiten, Blumenzwiebeln und interessanten Gehölzen,damit die Schönheit ihrer Staudenrabatten erhalten und gesteigert wird.'
+			},
+			{
+				name: 'Automatische Gartenberegnung',
+				text: 'Liefern und Montieren einer Beregnungsanlage, abgestimmt auf Ihre Situation im Garten oder auf der Dachterrasse, unerlässlich für einen stressfreien Sommer im Garten.'
 			},
 		],
 
@@ -118,7 +134,7 @@ module.exports = () => {
 		Die Geodaten generieren sich auto-
 		matisch aus den oben eingetragenen
 		Client Infos */
-		show_map: 'true',
+		show_map: 'false',
 		map_headline: 'Finden Sie uns',
 		map_text: 'Lorem Ipsum dolor sit amet',
 		map_bg: '#eeeeee',
