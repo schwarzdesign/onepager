@@ -59,7 +59,7 @@ module.exports = () => {
 		/* Client Email */
 		client_email: 'info@gartenmanufaktur-schmidt.de',
 		/* Client Logo */
-		logo: 'assets/logo.jpg',
+		logo: 'assets/gms_logo.png',
 		/* Header Image */
 		header_image: 'assets/header.jpg',
 		/* Welcome Message Headline */
@@ -82,11 +82,11 @@ module.exports = () => {
 		/* Teaser Tile text colour */
 		teaser_text_colour: '',
 		/* Teaser Section headline */
-		teaser_headline: 'Unsere Leistungen',
+		teaser_headline: 'Besonderen Stärken',
 		/* Teaser Content */
 		teasers: [
 			{
-				name: 'Neu- oder Umgestaltung',
+				name: 'Neu- oder Umgestaltungen',
 				text: 'Ich berate Sie gerne, bringe überraschende Vorschläge ein, entwerfe mit vielen Ideen sowie meinem Gestaltungs- und Fachwissen und gemeinsam mit Ihnen und Ihren Vorstellungen den Garten.'
 			},
 			{
@@ -94,28 +94,8 @@ module.exports = () => {
 				text: 'Stimmungsvolle Beleuchtung ihres Gartens mit ausgewählten und besonderen Lampen, wäre das nicht ein schönes Geschenk, mit dem Sie sich selbst beschenken?'
 			},
 			{
-				name: 'Terrassen reinigen',
-				text: 'Säubern ihrer Stein- und Holzterrassen von Schmutz und Grünbelägen. Überarbeiten oder Neuerstellen von Fugen.'
-			},
-			{
-				name: 'Wartungen',
-				text: 'Wir kontrollieren, reinigen und warten ihre technischen Einrichtungen, um diese dauerhaft funktionstüchtig zu halten, u.a. Beregnungsanlagen, Teichtechnik, Entwässerungsrinnen und Hofabläufe, sowie ihre Dachrinnen.'
-			},
-			{
-				name: 'Gehölzschnitt',
-				text: 'Pflanzen aus-, zurück und in Form schneiden, in der Schnittführung dabei das Ganze und die Zukunft im Blick haben, damit Ihnen die Pflanzen nicht über den Kopf wachsen.'
-			},
-			{
-				name: 'Rasen pflegen',
-				text: 'Rasen verticutieren, Starterdüngung ausbringen, Unkräuter im Rasen beseitigen und Kanten stechen.'
-			},
-			{
-				name: 'Staudenrabatten und Teichpflege',
-				text: 'Aufnehmen, überarbeiten und ergänzen ihrer Staudenrabatten mit neuen Schönheiten, Blumenzwiebeln und interessanten Gehölzen,damit die Schönheit ihrer Staudenrabatten erhalten und gesteigert wird.'
-			},
-			{
-				name: 'Automatische Gartenberegnung',
-				text: 'Liefern und Montieren einer Beregnungsanlage, abgestimmt auf Ihre Situation im Garten oder auf der Dachterrasse, unerlässlich für einen stressfreien Sommer im Garten.'
+				name: 'Materialien und Akzente',
+				text: 'Wir beraten Sie, welche Hölzer, Natursteine und Bodenbeläge am Besten in Ihre Gartengestaltung passen und mit welchen Ausstattungselementen und Accessoires sie sich harmonisch ergänzen lassen.'
 			},
 		],
 
@@ -154,9 +134,8 @@ module.exports = () => {
 				headline: 'Ihr Ansprechpartner',
 				image: 'assets/contact.jpg',
 				text: 'Stefan Schmidt' + '\n' +
-				'Projektleiter' + '\n' +
 				'Tel: 0221.168 528 44' + '\n' +
-				'E-mail: <a href=\'mailto:firma@gmail.com\'>firma@gmail.com</a>'
+				'<a href=\'mailto:info@gartenmanufaktur-schmidt.de\'>info@gartenmanufaktur-schmidt.de</a>'
 			}
 		]
     }

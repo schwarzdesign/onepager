@@ -54,7 +54,8 @@ img {
     max-width:100%;
 }
 .logo {
-    max-width:300px;
+    max-width:500px;
+    padding:25px 0 25px 0;
 }
 
 footer img {
@@ -68,7 +69,6 @@ footer img {
     background-color: #fff;
     padding:2rem; 
     box-shadow: 1px 1px 1px #ddd;
-    height: 400px;
 }
 
 
