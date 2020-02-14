@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy",
     "files:delete": "rm -rf _site",
-    "files:move": "mv _site/subpages _site/html && mv _site/assets _site/html/ && mv _site/css _site/html && mv _site/js _site/html"  
- },
+    "files:move": "mv _site/subpages _site/html && mv _site/assets _site/html/ && mv _site/css _site/html && mv _site/js _site/html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/schwarzdesign/onepager.git"
