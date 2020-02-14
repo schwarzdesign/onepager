@@ -1,22 +1,6 @@
 {# {% import "src/config.njk" as config %} #}
 {% set config = project %}
-<div class="row">
-    {% for item in config.footer %}
-        <div class="four columns">
-            <h5>{{ item.headline }}</h5>
-            {% if item.image != '' %}<img class="rounded" src="{{ item.image }}">{% endif %}
-            <p>{{ item.text|replace('\n', '<br>')|safe }}</p>
-        </div>
-    {% endfor %}
-    <div class="four columns">
-        <h5>Veranstalter</h5>
-        <p>{{ config.client_name }}<br>
-        {{ config.client_street }}<br>
-        {{ config.client_city }}<br>
-        Tel.: {{ config.client_tel }}<br>
-        Fax.: {{ config.client_fax }}</p>
-    </div>
-</div>
+
 <p class="text-muted mt">
 © {{ config.year }} {{ config.client_name }} 
 <a target="_blank" href="/imprint/">Impressum</a> | <a target="_blank" href="/privacypolicy/">Datenschutz</a></p>

@@ -51,21 +51,21 @@ module.exports = () => {
 		/* Client: Zip and City */
 		client_city: '50667 Köln',
 		/* Client: Telephone */
-		client_tel: '+49 (0)221/240 93 42',
+		client_tel: '+49 221 240 86 71',
 		/* Client: Fax */
-		client_fax: '+49 (0)221/240 86 70',
+		client_fax: '+49 221/240 86 70',
 		/* Client Lead */
 		client_represent: 'Christoph Hofmann',
 		/* Client Email */
 		client_email: 'Hofmann@infotage-dental.de',
 		/* Client Logo */
-		logo: 'assets/logo.gif',
+		logo: 'assets/logo.png',
 		/* Header Image */
 		header_image: 'assets/header.jpg',
 		/* Welcome Message Headline */
-		welcome_headline: 'Der regionale Treffpunkt der Dental-Branche.',
+		welcome_headline: 'Herzlich willkommen zu den id infotagen dental 2020',
 		/* Welcome Message / Text */
-		welcome_msg: '<p>Die Website der id infotage dental wird aktuell überarbeitet und steht in Kürze wieder zur Verfügung.</p> <p>Aussteller finden hier vorab eine <a href=\'assets/informationsbroschuere_2020.pdf\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\'>Anmeldeunterlagen</a>.</p><p>Sie haben Rückfragen? Sprechen Sie uns an.</p>',
+		welcome_msg: 'In diesem Jahr finden die regionalen Dentalfachmessen an folgenden Standorten statt:',
 		/* Welcome image */
 		welcome_image: 'assets/welcome.jpg',
 
@@ -82,24 +82,24 @@ module.exports = () => {
 		/* Teaser Tile text colour */
 		teaser_text_colour: '',
 		/* Teaser Section headline */
-		teaser_headline: 'Auch in diesem Jahr finden die regionalen Dentalfachmessen wieder an folgenden Standorten statt:',
+		teaser_headline: '',
 		/* Teaser Content */
 		teasers: [
 			{
 				name: 'München',
-				text: '<b>11.-12. September 2020</b>' + '\n' + 'Freitag 13-18 Uhr' + '\n' + 'Samstag 10-15 Uhr'
+				text: '<b>11.-12. September 2020</b><br>Freitag 13-18 Uhr<br>Samstag 10-15 Uhr'
 			},
 			{
 				name: 'Leipzig',
-				text: '<b>25.-26. September 2020</b>' + '\n' + 'Freitag 13-18 Uhr' + '\n' + 'Samstag 9-14 Uhr'
+				text: '<b>25.-26. September 2020</b><br>Freitag 13-18 Uhr<br>Samstag 9-14 Uhr'
 			},
 			{
 				name: 'Stuttgart',
-				text: '<b>16.-17. Oktober 2020</b>' + '\n' + 'Freitag 11-18 Uhr' + '\n' + 'Samstag 9-16 Uhr'
+				text: '<b>16.-17. Oktober 2020</b><br>Freitag 11-18 Uhr<br>Samstag 9-16 Uhr'
 			},
 			{
 				name: 'Frankfurt/M.',
-				text: '<b>13.-14. November 2020</b>' + '\n' + 'Freitag 11-18 Uhr' + '\n' + 'Samstag 9-17 Uhr'
+				text: '<b>13.-14. November 2020</b><br>Freitag 11-18 Uhr<br>Samstag 9-17 Uhr'
 			},
 		],
 
@@ -132,14 +132,14 @@ module.exports = () => {
 			{
 				headline: 'Für Aussteller',
 				image: '',
-				text: 'Hier finden Sie eine <a href=\'assets/informationsbroschuere_2020.pdf\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\'>Anmeldeunterlagen</a>.'
+				text: 'Hier finden Sie eine <a href=\'assets/informationsbroschuere_2020.pdf\' target=\'_blank\'>Informationsbroschüre</a> sowie die <a href=\'assets/anmeldeformular_2020.pdf\' target=\'_blank\'>Anmeldeunterlagen</a> für die infotage dental in Frankfurt und München.'
 			},
 			{
 				headline: 'Ihr Ansprechpartner',
 				image: '/assets/hofmann.jpg',
 				text: 'Christoph Hofmann' + '\n' +
 				'Projektmanager' + '\n' +
-				'Tel: +49 221 2408671' + '\n' +
+				'Tel: +49 221 240 86 71' + '\n' +
 				'E-mail: <a href=\'mailto:hofmann@infotage-dental.de\'>hofmann@infotage-dental.de</a>'
 			}
 		]
